@@ -1,0 +1,16 @@
+<web-app>
+    <servlet>
+        <servlet-name>ClienteController</servlet-name>
+        <servlet-class>br.com.loja_autopecas.controllers.ClienteController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ClienteController</servlet-name>
+        <url-pattern>/cliente</url-pattern>
+    </servlet-mapping>
+
+    <error-page>
+        <error-code>404</error-code>
+        <location>/jsp/404.jsp</location>
+    </error-page>
+</web-app>
